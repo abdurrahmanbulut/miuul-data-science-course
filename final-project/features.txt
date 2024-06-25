@@ -1,0 +1,80 @@
+* Satış Fiyatı (SalePrice): Mülkün dolar cinsinden satış fiyatı. Bu, tahmin etmeye çalıştığınız hedef değişkendir.
+* MSAltSınıf (MSSubClass): Bina sınıfı
+* MSBölgeleme (MSZoning): Genel bölgeleme sınıflandırması
+* Arazi Cephesi (LotFrontage): Mülkle bağlantılı cadde uzunluğu (lineer feet olarak)
+* Arazi Alanı (LotArea): Arazi büyüklüğü (kare feet olarak)
+* Cadde (Street): Yol erişim türü
+* Sokak (Alley): Ara yol erişim türü
+* Arazi Şekli (LotShape): Mülkün genel şekli
+* Arazi Konturu (LandContour): Mülkün düzlüğü
+* Tesisatlar (Utilities): Mevcut tesisat türleri
+* Arazi Yapısı (LotConfig): Arazi yapılandırması
+* Arazi Eğimi (LandSlope): Mülkün eğimi
+* Mahalle (Neighborhood): Ames şehri sınırları içindeki fiziksel konumlar
+* Durum 1 (Condition1): Ana yol veya demiryoluna yakınlık
+* Durum 2 (Condition2): Ana yol veya demiryoluna yakınlık (eğer ikinci bir yol mevcutsa)
+* Bina Türü (BldgType): Konut türü
+* Ev Stili (HouseStyle): Konut stili
+* Genel Kalite (OverallQual): Genel malzeme ve bitiş kalitesi
+* Genel Durum (OverallCond): Genel durum derecesi
+* Yapım Yılı (YearBuilt): Orijinal inşaat tarihi
+* Yenileme Yılı (YearRemodAdd): Yenileme tarihi
+* Çatı Stili (RoofStyle): Çatı türü
+* Çatı Malzemesi (RoofMatl): Çatı malzemesi
+* Dış Kaplama 1 (Exterior1st): Evin dış kaplaması
+* Dış Kaplama 2 (Exterior2nd): Evin dış kaplaması (eğer birden fazla malzeme kullanılmışsa)
+* Taş Kaplama Türü (MasVnrType): Taş kaplama türü
+* Taş Kaplama Alanı (MasVnrArea): Taş kaplama alanı (kare feet olarak)
+* Dış Kalite (ExterQual): Dış malzeme kalitesi
+* Dış Durum (ExterCond): Dış malzemenin mevcut durumu
+* Temel (Foundation): Temel türü
+* Bodrum Kalitesi (BsmtQual): Bodrum yüksekliği
+* Bodrum Durumu (BsmtCond): Bodrumun genel durumu
+* Bodrum Girişi (BsmtExposure): Yarı veya bahçe seviyesinde bodrum duvarları
+* Bodrum Bitirme Türü 1 (BsmtFinType1): Bodrum bitmiş alan kalitesi
+* Bodrum Bitmiş Alan 1 (BsmtFinSF1): Tür 1 bitmiş alan (kare feet olarak)
+* Bodrum Bitirme Türü 2 (BsmtFinType2): İkinci bitmiş alan kalitesi (varsa)
+* Bodrum Bitmiş Alan 2 (BsmtFinSF2): Tür 2 bitmiş alan (kare feet olarak)
+* Bitmemiş Bodrum Alanı (BsmtUnfSF): Bitmemiş bodrum alanı (kare feet olarak)
+* Toplam Bodrum Alanı (TotalBsmtSF): Toplam bodrum alanı (kare feet olarak)
+* Isıtma (Heating): Isıtma türü
+* Isıtma Kalitesi ve Durumu (HeatingQC): Isıtma kalitesi ve durumu
+* Merkezi Klima (CentralAir): Merkezi klima
+* Elektrik (Electrical): Elektrik sistemi
+* 1. Kat Alanı (1stFlrSF): Birinci kat alanı (kare feet olarak)
+* 2. Kat Alanı (2ndFlrSF): İkinci kat alanı (kare feet olarak)
+* Düşük Kalite Bitmiş Alan (LowQualFinSF): Düşük kaliteli bitmiş alan (tüm katlar, kare feet olarak)
+* Zemin Üstü Yaşam Alanı (GrLivArea): Zemin üstü yaşam alanı (kare feet olarak)
+* Bodrum Tam Banyosu (BsmtFullBath): Bodrum tam banyoları
+* Bodrum Yarım Banyosu (BsmtHalfBath): Bodrum yarım banyoları
+* Tam Banyo (FullBath): Zemin üstü tam banyolar
+* Yarım Banyo (HalfBath): Zemin üstü yarım banyolar
+* Yatak Odası (Bedroom): Bodrum seviyesi üzerindeki yatak odası sayısı
+* Mutfak (Kitchen): Mutfak sayısı
+* Mutfak Kalitesi (KitchenQual): Mutfak kalitesi
+* Zemin Üstü Toplam Oda Sayısı (TotRmsAbvGrd): Zemin üstü toplam oda sayısı (banyolar hariç)
+* Fonksiyonellik (Functional): Evin fonksiyonellik derecesi
+* Şömineler (Fireplaces): Şömine sayısı
+* Şömine Kalitesi (FireplaceQu): Şömine kalitesi
+* Garaj Türü (GarageType): Garaj konumu
+* Garaj Yapım Yılı (GarageYrBlt): Garajın yapım yılı
+* Garaj Bitirme Durumu (GarageFinish): Garajın iç bitiş durumu
+* Garaj Araç Kapasitesi (GarageCars): Garajın araç kapasitesi
+* Garaj Alanı (GarageArea): Garaj alanı (kare feet olarak)
+* Garaj Kalitesi (GarageQual): Garaj kalitesi
+* Garaj Durumu (GarageCond): Garaj durumu
+* Asfalt Yol (PavedDrive): Asfalt yol
+* Ahşap Güverte Alanı (WoodDeckSF): Ahşap güverte alanı (kare feet olarak)
+* Açık Veranda Alanı (OpenPorchSF): Açık veranda alanı (kare feet olarak)
+* Kapalı Veranda Alanı (EnclosedPorch): Kapalı veranda alanı (kare feet olarak)
+* Üç Mevsim Verandası Alanı (3SsnPorch): Üç mevsim verandası alanı (kare feet olarak)
+* Kapalı Veranda Alanı (ScreenPorch): Kapalı veranda alanı (kare feet olarak)
+* Havuz Alanı (PoolArea): Havuz alanı (kare feet olarak)
+* Havuz Kalitesi (PoolQC): Havuz kalitesi
+* Çit (Fence): Çit kalitesi
+* Diğer Özellik (MiscFeature): Diğer kategorilere dahil olmayan çeşitli özellikler
+* Diğer Özellik Değeri (MiscVal): Diğer özelliklerin $ değeri
+* Satış Ayı (MoSold): Satış ayı
+* Satış Yılı (YrSold): Satış yılı
+* Satış Türü (SaleType): Satış türü
+* Satış Koşulu (SaleCondition): Satış koşulu
